@@ -1,0 +1,151 @@
+
+#maincontainer{
+	background-image: url("xp.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	position:absolute;
+	left:20px;
+	right:20px;
+	top:20px;
+	bottom:20px;
+	height:100%;
+	min-width:1200px;
+}
+
+#logo{
+	display: inline-block;
+	border-radius: 4px;
+	/*background-color: #CD5C5C;*/
+	background-color: #53BF6D;
+	border: none;
+	color: #FFFFFF;
+	font-size: 40px;
+  	height:100px;
+	text-align: center;
+	top:20px;
+	left:20px;
+	right:20px;
+	position:absolute;
+}
+
+#menu{
+	position:absolute;
+	width:200px;
+	height:200px;
+	left:20px;
+	top:130px;
+}
+
+#menulist{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#menulist ul{
+	
+}
+
+
+#menulist li{
+	padding:7px;
+}
+
+#menulist_li3 {
+	position: relative;
+	bottom: 0px;
+}
+
+#menulist button{
+  display: inline-block;
+  border-radius: 4px;
+  /*background-color: #CD5C5C;*/
+  background-color: #53BF6D;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+#cos{	
+	display: inline-block;
+	border-radius: 4px;
+	/*background-color: #CD5C5C;*/
+	background-color: #53BF6D;
+	
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	position:absolute;
+	min-width:500px;
+	height:360px;
+	left:250px;
+	right:250px;
+	top:130px;
+	opacity:0.9;
+}
+
+#baza{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+}
+
+#baza, #baza td{
+	border: 1px solid;
+	border-spacing:2px;
+	
+}
+
+#mainrow{
+	text-align:center;
+	font-weight: bold;
+	
+}
+
+#footer{
+	/*background-color:#CD5C5C;*/
+	background-color:#53BF6D;
+	color: #FFFFFF;
+	border-radius: 4px;
+	font-size:20px;
+	height:100px;
+	text-align:center;
+	bottom:20px;
+	left:20px;
+	right:20px;
+	position:absolute;
+	
+}
